@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="grid-container bg-shadow padded lightblue">
+        <img src="images/Kasama Logo.png" alt="Kasama Logo" width="75" height="75">
+            <div class="nav">
+                <a href="#" id="menu">Menu</a>
+                <a href="#" id="gc-menu">Gift Cards</a>
+                <a href="#" id="about-menu">About Us</a>
+                <a href="#" id="reservation-menu">Reservations</a>
+            </div>
+    </header>
+    <!-- Menu -->
+    <div id="show-menu" class="display-none">
+        <a href="#" class="menu-item">Appetizers</a>
+        <a href="#" class="menu-item">Entrees</a>
+        <a href="#" class="menu-item">Sides</a>
+        <a href="#" class="menu-item">Beverages</a>
+        <a href="#" class="menu-item">Desserts</a>
+        <a href="#" class="menu-item">Pasteries</a>
+    </div>
+    <!-- Gift Cards-->
+    <div id="show-gc-menu" class="display-none">
+        <a href="#" class="menu-item">Amount</a>
+        <a href="#" class="menu-item">Holidays</a>
+        <a href="#" class="menu">Birthdays</a>
+    </div>
+    <!-- About Us -->
+    <div id="show-about-menu" class="display-none">
+        <a href="#" class="menu-item">Our Story</a>
+        <a href="#" class="menu-item">History Of Our Food</a>
+
+    </div>
+    <!-- Reservations -->
+    <div id="show-reservation-menu" class="display-none">
+        <a href="#" class="menu-item">Make A Reservation</a>
+        <a href="#" class="menu-item">Hours</a>
+        <a href="#" class="menu-item">Holiday Availability</a>
+        <a href="#" class="menu-item">Contact Us</a>
+
+    </div>
+    <main class="content">
+        <section>
+            <img src="images/Top 3 Images.png" alt="Top3Imaages">
+        </section>
+        <section class="centertext text-1">
+            <h2>OPEN 9a.m.-3p.m.</h2>
+            <p>Come try our delicious pastries and wonderful food. <br> 
+                (KITCHEN CLOSES AT 2 P.M.) <br>
+                You can get our drinks and pastries for carry out from 2 p.m.-3p.m.</p>
+        </section>
+        <section class="section margin-top centertext">
+            <a href="#" class="button-1">Make a Reservation Now!</a>
+        </section>
+        <section>
+            <h2 class="text-1 section centertext">NEW MENU ITEMS</h2>
+        </section>
+        <section>
+            <img src="images/Center 3 Images.png" alt="Center3Images">
+        </section>
+        <section class="section margin centertext">
+            <a href="#" class="button-2 padded">View Menu</a>
+        </section>
+        <section class="grid-container padded">
+            <img src="images/Kasama Owners.png" alt="Kasama Owners">
+            <h2 class="centertext text-1">With its critically acclaimed food Kasama has had many reviews, blogs, and articles written about it.</h2>
+        </section>
+        <section>
+            <img src="images/Explore Chicago Images.png" alt="Explore Chicago Images">
+        </section>
+        <section class="section margin centertext">
+            <a href="#" class="button-2 padded">Explore Chicago</a>
+        </section>
+    </main>
+        <footer class="right-align darkturquoise centertext content">
+            <div class="selector">
+            <h4 class="left-align text-2">Contact Info: (773) 697-3790</h4>
+            <div class="right-align">
+                <img src="images/Michelin Award'.png" alt="Michelin Award" width="33" height="33">
+                <img src="images/Instra Logo.png" alt="Instagram Logo" width="33" height="33">
+                <img src="images/Facebook logo.png" alt="Facebook Logo" width="33" height="33">
+            </div>
+        </div>
+        </footer>
+        <script src="javascript/index.js"></script>
+</body>
 </html>

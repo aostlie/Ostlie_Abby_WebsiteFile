@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+a {
+    color: #245672;
+    font-family: baskerville-urw;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+#show-menu, #show-gc-menu, #show-about-menu, #show-reservation-menu {
+    background-color: #245672;
+    text-align: center;
+    display: none;
+}
+#show-menu a, #show-gc-menu a, #show-about-menu a, #show-reservation-menu a {
+    display: block;
+    padding: 20px;
+    color: #DBE5F1;
+    text-decoration: none;
+}
+.display-none {
+    display: none;
+}
+.content {
+    max-width: 1280px;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.bg-shadow {
+    box-shadow: 0 0 10 #bbbbbb; 
+}
+.nav {
+    text-align: right;
+}
+.nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    width: 100%;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lightblue {
+    background-color: #DBE5F1;
+}
+.darkturquoise {
+    background-color: #245672;
+}
+.padded {
+    padding: 16px;
+}
+.button-1 {
+    background-color: #245672;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #F39C44;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 632px;
+}
+.button-2 {
+    background-color: #F39C44;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 415;
+}
+.centertext {
+    text-align: center;
+}
+.right-align {
+    text-align: right;
+}
+.left-align {
+    text-align: left;
+}
+.margin {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.text-1 {
+    color: #245672;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.text-2 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+.selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+
+}
+@media screen and (max-width: 648px) {
+    .nav {
+        display: none;
+    }
+    .text-1 {
+    color: #245672;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .button-1 {
+    background-color: #245672;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #F39C44;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 325px;
+    }
+    .button-2 {
+    background-color: #F39C44;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 215;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
